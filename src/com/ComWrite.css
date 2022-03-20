@@ -1,0 +1,37 @@
+.wrap {
+	width: 1200px;
+	margin: 0 auto;
+	height: 800px;
+}
+
+a {text-decoration: none;
+color: indianred;}
+
+.h3 {
+    text-align: center;
+}
+
+.addTitle{
+	width: 100px; 
+    font-size: 16px;
+    float: left; 
+    text-align: center;
+    padding-bottom: 10px;}
+
+.addCate{width: 100px; font-size: 16px;}
+
+.title {padding-top: 15px;}
+
+.areaTitle {height: 20px; }
+.areaContent {width: 900px;}
+
+
+.writeBtn {width: 100px;
+padding-left: 400px;
+}
+
+.addBtn {
+	font-size: 15px;
+	width: 70px;
+	height: 30px;
+}
