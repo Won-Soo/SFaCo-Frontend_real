@@ -9,7 +9,7 @@ import FindId from './info/FindId';
 import FindPwd from './info/FindPwd';
 import Login from './info/Login';
 import SignUp from './info/SignUp';
-import { Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 //import './com/ComWrite.css'
 
@@ -18,17 +18,21 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
+
       <Routes>
-        <Route path='./com' element={<ComWrite />} />
-        <Route path='./com' element={<ComList />} />
+        <Route path='mainpage' element={<MainPage />} />
+        <Route path='/communities/list/communities/new' element={<ComWrite />} />
+        <Route path='communities/list' element={<ComList />} />
+        <Route path='login' element={<Login />} />
       </Routes>
 
-      {/* <ComWrite></ComWrite> */}
-      <ComList></ComList>
+
+      {/* <ComWrite></ComWrite>  */}
+      {/* <ComList></ComList> */}
       {/* <ComView></ComView> */}
       {/* <ComEdit></ComEdit> */}
-      {/* <MainPage></MainPage> */}
-       {/* <FindId></FindId> */}
+      <MainPage></MainPage>
+      {/* <FindId></FindId> */}
       {/* <FindPwd></FindPwd> */}
       {/* <Login></Login> */}
       {/* <SignUp></SignUp> */}

@@ -18,7 +18,9 @@ function ComList() {
                     <li>기타</li>
                 </ul>
             </nav>
-            <h3 className="write"><Link to="./com/ComList">작성하기</Link></h3>
+            <h3 className="write"><Link to="/communities/list/communities/new">작성하기</Link></h3>
+    
+
             <div className="comTable">
                 <table className="table" border={1} cellSpacing={0} ></table>
                 <colgroup>

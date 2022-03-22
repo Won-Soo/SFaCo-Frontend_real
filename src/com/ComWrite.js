@@ -6,7 +6,7 @@ function ComWrite() {
     return (
         <div className="wrap">
             <h1>SFaCo</h1>
-            <h3><Link to="./com/ComList">커뮤니티</Link>작성하기</h3>
+            <h3><Link to="communities/list">커뮤니티</Link>작성하기</h3>
         
             <div className="writeArea">
                 <h3 className="addTitle">

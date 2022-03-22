@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function MainPage() {
     return (
@@ -7,7 +8,7 @@ function MainPage() {
                 <nav>
                     <ul className="menu1">
                         <li>전체</li>
-                        <li>커뮤니티</li>
+                        <li><Link to="communities/list">커뮤니티</Link></li>
                     </ul>
                 </nav>
             </header>
@@ -29,7 +30,7 @@ function MainPage() {
 
             <footer>
                 <ul className="menu3">
-                    <li><a href="Login.html">로그인</a></li>
+                    <li><Link to="login">로그인</Link>로그인</li>
                     <li><a href="MyPage.html">마이페이지</a></li>
                 </ul>
                 <p>
